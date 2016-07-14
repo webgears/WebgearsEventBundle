@@ -15,10 +15,6 @@
     "autoload": {
         "psr-0": { "Webgears\\Bundle\\EventBundle": "" }
     },
-    "config": {
-        "bin-dir": "bin/"
-    },
-    "target-dir": "Webgears/EventBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "master"
