@@ -1,0 +1,27 @@
+{
+    "name": "webgears/event-bundle",
+    "type": "symfony-bundle",
+    "description": "Add work to a queue that will be processed after Symfony2's kernel.terminate event",
+    "keywords": ["kernel", "terminate", "event", "queue"],
+    "authors": [
+        {
+            "name": "Philip Heimböck",
+            "email": "philip.heimboeck@webgears.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-0": { "Webgears\\Bundle\\EventBundle": "" }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "target-dir": "Webgears/EventBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}

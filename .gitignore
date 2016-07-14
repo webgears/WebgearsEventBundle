@@ -1,0 +1,15 @@
+# Composer
+composer.phar
+
+# IDE and OS
+.buildpath
+.project
+.settings/
+.idea/*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Backupfiles
+*.orig
+*.php~
