@@ -60,3 +60,14 @@ $data = [$arg1, $arg2, $arg3];
 $event = new CallableEvent($callable, $data);
 $this->get('event_dispatcher')->dispatch(ActionEvent::NAME, $event);
 ```
+
+You will also need to register the subscriber service:
+
+```yml
+services:
+    webgears.event_bundle.queue_listener:
+        class: Webgears\Bundle\EventBundle\Listener\EventSubscriber
+        arguments: []
+        tags:
+          - { name: kernel.event_subscriber }
+```
