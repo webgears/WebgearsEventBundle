@@ -13,7 +13,7 @@
         "php": ">=5.6"
     },
     "autoload": {
-        "psr-0": { "Webgears\\Bundle\\EventBundle": "" }
+        "psr-4": { "Webgears\\Bundle\\EventBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
