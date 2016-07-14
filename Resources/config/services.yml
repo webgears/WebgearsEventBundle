@@ -1,6 +1,6 @@
 services:
     webgears.event_bundle.queue_listener:
-        class: Webgears\Bundle\EventBundle\Listener\EventListener
+        class: Webgears\Bundle\EventBundle\Listener\EventSubscriber
         arguments: []
         tags:
           - { name: kernel.event_subscriber }

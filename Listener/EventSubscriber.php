@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 use Webgears\Bundle\EventBundle\Model\ActionEvent;
 use Webgears\Bundle\EventBundle\Model\EventQueue;
 
-class EventListener implements EventSubscriberInterface
+class EventSubscriber implements EventSubscriberInterface
 {
     /**
      * When a event is received, add it to the queue
